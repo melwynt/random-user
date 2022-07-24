@@ -19,35 +19,9 @@ This current repo is a remastered version with React Hooks (`useState` and `useE
 
 ## How to run it?
 
-You can first fork this repo from Github.
-
-Then in your Terminal, you can clone the forked repo.
-
-> I'm using node version `v16.13.0`.
-> You can check your node version by typing:
->
-> ```
-> node -v
-> ```
->
-> I recommend using NVM to manage your node versions.
-
-Once the repo is cloned:
-
-```
-cd random-user
-yarn install
-```
-
-`yarn install` will install all dependencies.
-
-The repository was initialized with the create-react-app command. That's why it uses yarn.
-
-Finally, you can run the command below to start your React app:
-
-```
-yarn start
-```
+- clone repo
+- run `yarn` to install all module
+- run `yarn dev` to run project
 
 ## Things I've added
 
