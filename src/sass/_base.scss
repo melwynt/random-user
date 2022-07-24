@@ -1,0 +1,37 @@
+:root {
+  --color-blue: #3ebfff;
+  --color-white: #fffbf8;
+  --color-yellow: #fdd302;
+  --color-salmon: #ff7163;
+  --color-pearl-aqua: #9adacc;
+  --color-forest: #2b7365;
+  --color-wintergreen: #4a8e7f;
+  --color-light-cyan: #dcf7fa;
+  --color-charcoal: #3e454f;
+  --color-manatee: #9d9ca3;
+}
+
+$color-bg: var(--color-white);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
+}
+
+body {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: var(--color-charcoal);
+}
